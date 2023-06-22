@@ -3,19 +3,17 @@
 /**
  * print_alphabet - A program that prints alphabets in lowercase
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
 {
-	char e = 'a';
+	int e;
 
-	while (e <= 'z')
+	for (e = 97; e <= 122; e++)
 	{
 		_putchar(e);
-		e++;
 	}
 
 	_putchar('\n');
-	return (0);
 }
