@@ -12,5 +12,5 @@ if (e >= 48 && e <= 57)
 {
 return (1);
 }
-return (e);
+return (0);
 }
