@@ -11,7 +11,11 @@ void rev_string(char *s)
 	int length, Z, half;
 	char temp;
 
-	for (length = 0; s[length] != '\0'; length++);
+	for
+	(length = 0;
+	s[length] != '\0';
+
+	length++);
 	Z = 0;
 	half = length / 2;
 
